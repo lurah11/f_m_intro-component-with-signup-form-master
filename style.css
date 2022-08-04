@@ -1,0 +1,113 @@
+:root {
+    --red : hsl(0, 100%, 74%) ;
+    --green : hsl(154, 59%, 51%) ;
+    --blue : hsl(248, 32%, 49%) ;
+    --dblue : hsl(249, 10%, 26%);
+    --gblue : hsl(246, 25%, 77%) ;
+    --fontz : 16 px ;
+    --fontf : 'Poppins', sans-serif;    
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: var(--red);
+}
+#box_outer_1 {
+    width: 850px;
+    height:450px;
+    display:flex;
+}
+#box_outer_2_1 {
+    margin: 20px 20px 20px 100px;
+    
+}
+#box_outer_2_2 {
+    margin: 20px 100px 20px 20px;
+}
+
+
+#p_headline {
+    margin-top:120px;
+    font-size: 30px;
+    font-family:var(--fontf);
+    font-weight: 700;
+    color: white;    
+    padding-right: 50px;
+}
+#p_content {
+    font-family: var(--fontf);
+    font-size: 10px;
+    color:white;
+}
+#p_try_for_free {
+    font-family: var(--fontf);
+    font-size: 10px;
+    color:white;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius : 4px;
+    box-shadow: 2px 2px 2px 2px var(--dblue);
+    background-color: var(--blue);
+    padding:10px;
+}
+#div_form_0 {
+    background-color: white;
+    border-radius:4px;
+    height: 320px;
+    width: 300px;
+    padding-top: 10px;
+}
+#div_form input {
+    display:block;
+    margin : 0px 20px 0px 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+       
+}
+#p_term_service {
+    font-size: 8px;
+    font-family: var(--ff);
+    text-align: center;
+    color:var(--gblue)
+}
+
+#p_term_service span {
+    color:var(--red);
+    font-size:8px;
+    font-family: var(--fontf);
+    font-weight: 700;
+}
+
+#form_submit {
+    display: block;
+    background-color: var(--green);
+    font-size:12px;
+    font-family: var(--fontf);
+    font-weight: 700;
+    color:white;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: 60px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px var(--green);
+}
+.input_error {
+    display: block;
+    font-size:7px;
+    color:var(--red);
+    font-family:var(--fontf);
+    text-align: right;
+    margin-right:23px;
+    margin-bottom: 5px;
+    height: 10px;
+
+}
+
+.form_input_error {
+
+}
